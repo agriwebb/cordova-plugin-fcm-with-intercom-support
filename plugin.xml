@@ -17,9 +17,9 @@
   specific language governing permissions and limitations
   under the License.
 -->
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-fcm-with-dependecy-updated" version="2.4.0">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-fcm-with-intercom-support" version="2.4.0">
     <name>Cordova FCM Push Plugin</name>
-    <description>Google Firebase Cloud Messaging Cordova Push Plugin fork with dependecy updated</description>
+    <description>Google Firebase Cloud Messaging Cordova Push Plugin fork with support for intercom cordova plugin</description>
     <license>MIT</license>
     <keywords>notifications, push, firebase, fcm, ios, android, cordova, plugin</keywords>
 
@@ -58,8 +58,8 @@
 				</feature>
 		</config-file>
 
-        <framework src="com.google.firebase:firebase-core:10.+" />
-        <framework src="com.google.firebase:firebase-messaging:10.+" />
+        <framework src="com.google.firebase:firebase-core:11.+" />
+        <framework src="com.google.firebase:firebase-messaging:11.+" />
 
 		<framework src="src/android/FCMPlugin.gradle" custom="true" type="gradleReference"/>
 
